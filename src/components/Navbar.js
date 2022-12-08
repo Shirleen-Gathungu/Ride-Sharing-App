@@ -1,21 +1,30 @@
 import React from "react";
 import Logo from './images/Logo2.png';
-import { countries } from 'country-flag-icons'
+// import { Link } from "react-router-dom";
+
 const Navbar = ()=>{
     return(
         <div>
-          <nav>
+   <header>
+        
             <div className="logo-image">
                 <img src={Logo}/>
 
                 <nav>
                     <ul className="navbar">
+                    {/* <li><Link to="/"><a href=""></a> HOME</Link></li>
+                   <li><Link to="/ride"><a href=""></a> BOOK RIDE </Link></li>
+                   <li><Link to="#"><a href=""></a>BLOG</Link></li>
+                   <li><Link to="#"><a href=""></a>DIGINEWS</Link></li> */}
+            
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">BOOK RIDE</a></li>
+                    <li><a href="/ride">BOOK RIDE</a></li>
+                    <li><a href="/works">HOW IT WORKS</a></li>
                     <li><a href="#">BLOG</a></li>
-                    <li><a href="#">DIGINEWS</a></li>
+                   
 
-                    <div class="nav-dropdown">
+
+                    {/* <div class="nav-dropdown">
                     <button class="dropbtn">COUNTRY
 
                     </button>
@@ -31,14 +40,16 @@ const Navbar = ()=>{
                     <a href="#"><img className="dji" alt="Djibouti" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/DJ.svg"/> </a> 
             
                     </div>  
-                    </div>
-                       
+                    </div> */}
+                   
                     </ul>
+                  
+                       
                 </nav>
             </div>
-           
-            </nav>   
+          
+            </header>
         </div>
     )
 }
-export default Navbar
+export default Navbar;
