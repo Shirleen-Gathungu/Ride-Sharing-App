@@ -17,7 +17,7 @@ const Navbar = ()=>{
                    <li><Link to="#"><a href=""></a>BLOG</Link></li>
                    <li><Link to="#"><a href=""></a>DIGINEWS</Link></li> */}
             
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="*/">HOME</a></li>
                     <li><a href="/ride">BOOK RIDE</a></li>
                     <li><a href="/works">HOW IT WORKS</a></li>
                     <li><a href="#">BLOG</a></li>

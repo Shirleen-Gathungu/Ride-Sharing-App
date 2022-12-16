@@ -4,11 +4,14 @@ import '../components/How.css';
 import wait from './images/wait.gif';
 import ride from './images/ride.gif';
 import ratings from './images/ratings.gif';
+import Navbar from "./Navbar";
 const How = ()=>{
 return (
     <div className="full-container">
         <div className="second-container">
+        <Navbar/>
 
+      
         </div>
         <div className="word-container">
         <h1>Join Digiride Community</h1>
@@ -27,15 +30,14 @@ return (
             <div className="step-two">
              <h1>02</h1>
              <h2>Ride & Enjoy</h2>
-             <p>Within the Digiride service area,
-                you can drive everywhere fast and carefree.</p>
+             <p>Within the Digiride service area,you can drive everywhere fast and carefree.</p>
             <img src={ride} alt="ride"/>
             <hr className="horiz-two"/>
             </div>
             <div className="step-three">
              <h1>03</h1>
-             <h2>Rate & Try Again</h2>
-             <p>Rate your drive to help us know how to improve our platform.</p>
+             <h2>Rate & Ride Again</h2>
+             <p>Rate your drive to help us know how to improve our platform and Ride Again with us!</p>
             <img src={ratings} alt="rate"/>
             <hr className="horiz-three"/>
             <div className="why-digi">
